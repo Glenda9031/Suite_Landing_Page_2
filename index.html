@@ -5,39 +5,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
   
   <title>Frontend Mentor | Suite landing page</title>
 </head>
 <body>
 
-  Request Beta Access
+  <header class="container">
+    <a href="#"><img src="images/logo.svg" alt="company logo" class="header-logo"></a>
+    <button class="btn header-btn">Request Beta Access</button>
+  </header>
 
-  A super solution for your business.
+  <main>
+    <div class="hero-container">
+      <section class="hero-content">
+        <h1 class="mission-statement">A <span class="mission-span">super solution</span> for your <span class="mission-span">business.</span></h1>
+        <p class="quote1">Our marketing and sales automations help you scale your outreach to 
+          get more leads for your company.</p>
+        <button class="btn mission-btn">Request Beta Access</button>  
+      </section>
 
-  Our marketing and sales automations help you scale your outreach to 
-  get more leads for your company. 
+      <section class="image-hero">
+        <div class="curved-line">
+          <img src="images/pattern-curved-line-1.svg" alt="curved line" class="curve">
+        </div>
+        <img src="images/image-hero-portrait.png" alt="cell phone" class="hero-image">
+      </section>
 
-  Request Beta Access
+      <div class="metrics">
+        <section>
+          <h2 class="flow">2K+</h2>
+          <p class="content">Companies</p>
 
-  2K+
-  Companies
+          <h2 class="flow">8</h2>
+          <p class="content">Languages</p>
 
-  8
-  Languages
+          <h2 class="flow">1.2</h2>
+          <p class="content">Leads</p>
+        </section>
+      </div>
+    </div>
 
-  1.2M
-  Leads
+    <div class="testimonial">
+      <img src="images/image-jeremy-small.png" alt="picture of Jeremy" class="jeremy">
+      <div class="curved-line">
+        <img src="images/pattern-curved-line-2.svg" alt="curved line 2" class="curve-testimonial">
+      </div>
+      <section class="testimonial-statement">
+        <h2>It just <span class="testimonial-span">works</span></h2>
+        <p class="quote2">“I really like how it is an all-in-one solution that handle many of 
+          the tasks that you would normally need separate tools to do the same 
+          job. This thing is a miracle worker.”</p>
+          <section>
+            <h3 class="name">Jeremy Robinson</h3>
+            <h4 class="title">CMO, Fylo</h4>            
+          </section>
+      </section>
+    </div>
+  </div>
+  </main>
 
-  It just works.
-
-  “I really like how it is an all-in-one solution that handle many of 
-  the tasks that you would normally need separate tools to do the same 
-  job. This thing is a miracle worker.”
-
-  Jeremy Robinson
-  CMO, Fylo
-
-  Copyright - Suite
-
+  <footer>
+    <div class="container-footer">
+      <a href="#"><img src="images/logo.svg" alt="footer logo" class="footer-logo"</a>
+      <p class="copyright">Copyright - Suite</p>
+    </div>
+    <ul class="social-media">
+        <li><a href="#"><img src="images/icon-facebook.svg" alt="facebook image" class="social-media-link"></a></li>
+        <li><a href="#"><img src="images/icon-twitter.svg" alt="twitter image" class="social-media-link"></a></li>
+        <li><a href="#"><img src="images/icon-instagram.svg" alt="instagram image" class="social-media-link"></a></li>
+      </ul>
+    </div>
+  </div>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --very-dark-color: #172339;
+    --dark-color: #49566d;
+    --background-color: #e6e6ff;
+    --neutral-color: #f3ede7;
+    --accent-color: #faf8f6;
+
+    /* Super Blend */
+    --top-color: #a060ff;
+    --middle-color: #cb30e3;
+    --bottom-color: #ffa84e;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Rubik', sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    max-width: 61.25rem;
+}
+
+.container {
+    max-width: 90rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6.25rem;
+}
+
+.header-logo {
+    width: 3.125rem;
+    height: 0.9375rem;
+}
+
+.btn {
+    font-size: .60rem;
+    font-weight: 900;
+    padding: .7rem;
+    border: .0625rem solid var(--very-dark-color);
+    border-radius: 0.3rem;
+    margin-bottom: 3rem;
+}
+
+.header-btn {
+    background-color: var(--background-color);
+    color: var(--very-dark-color);
+    cursor: pointer;
+}
+
+.header-btn:hover {
+    background-color: var(--very-dark-color);
+    color: #fff;
+}
+
+main {
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.hero-container {
+    display: flex;
+}
+
+.curved-line {
+    width: 4.6875rem;
+}
+
+.curve {
+    margin-left: 3rem;
+    width: 10rem;
+    font-weight: 900;
+}
+
+.hero-image {
+    width: 12.5rem;
+    height: 21.875rem;
+}
+
+.mission-btn {
+    background-color: var(--very-dark-color);
+    color: #fff;
+}
+
+.mission-btn:hover {
+    background-color: var(--background-color);
+    color: var(--very-dark-color);
+}
+
+.mission-statement {
+    font-weight: 300;
+    font-size: 3rem;
+    width: 25rem;
+    margin-bottom: 1.50rem;
+}
+
+.mission-span {
+    font-weight: 700;
+    color: var(--very-dark-color);
+}
+
+.quote1 {
+    font-size: .70rem;
+    font-weight: 300;
+    width: 14.0625rem;
+    line-height: 1.175;
+    letter-spacing: 0.0437rem;
+    color: var(--top-color);
+    margin-bottom: 1.50rem;
+}
+
+.metrics {
+    display: flex;
+    align-items: center;
+    padding-left: 3.125rem;
+}
