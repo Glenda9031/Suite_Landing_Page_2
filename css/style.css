@@ -126,3 +126,109 @@ main {
     align-items: center;
     padding-left: 3.125rem;
 }
+
+.flow {
+    font-size: 1.75rem;
+    margin-bottom: .1875rem;
+}
+
+.content {
+    margin-bottom: 3.125rem;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 7rem;
+    background-color: var(--very-dark-color);
+    width: 50rem;
+    border-radius: .625rem;
+}
+
+.jeremy {
+    width: 10.9375rem;
+    height: 12.5rem;
+    padding-left: 5rem;
+}
+
+.curve-testimonial {
+    display: flex;
+    margin-top: 10.935rem;
+    margin-left: 3.125rem;
+    align-items: center;
+    width: 3.125rem;
+}
+
+.testimonial-statement {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 5rem;
+}
+
+.testimonial-statement h2 {
+    font-weight: 300;
+    padding-bottom: 1.875rem;
+}
+
+.testimonial-span {
+    font-weight: 700;
+}
+
+.quote2 {
+    font-size: .65rem;
+    font-weight: 300;
+    width: 12.5rem;
+    line-height: 1.8;
+    letter-spacing: .0437rem;
+    color: #c2d1f0;
+    padding-bottom: 1.875rem;
+}
+
+.name {
+    font-size: .70rem;
+    color: #c2d1f0;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+
+.title {
+    font-size: .6rem;
+    color: #c2d1f0;
+}
+
+.container-footer {
+    display: flex;
+    align-content: space-between;
+    width: 56.25rem;
+}
+
+.footer-logo {
+    width: 3.125rem;
+    height: .9375rem;
+}
+
+.copyright {
+    display: flex;
+    font-size: .6rem;
+    color: #000;
+    padding-left: 18.75rem;
+    padding-right: 17.1875rem;
+}
+
+.social-media {
+    display: flex;
+    max-width: 5rem;
+    justify-content: space-between;
+    align-items: space-between;
+    list-style: none;
+}
+
+.social-media-link {
+    display: flex;
+    width: .9375rem;
+    height: .625rem;
+    margin-right: 1.25rem;
+}
